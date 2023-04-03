@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
 }
 
 .App-logo {
@@ -35,4 +41,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.service {
+  background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);;
+}
+.footer {
+  background: rgba(11, 10, 12, 0.6);
+}
+.text {
+  background:  radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color:; */
+}
+.opinion {
+  background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
+  filter: blur(325px);
+}
+.robo {
+  background-color: rgba(255, 255, 255, 0.6);
+filter: blur(375px);
+}
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background-color: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
 }
